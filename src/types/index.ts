@@ -20,6 +20,13 @@ export interface TutorialStep {
   output?: string;
 }
 
+export interface TutorialProps{
+  language: string;
+  title: string;
+  steps: TutorialStep[];
+  onClose: () => void;
+}
+
 export interface QuizQuestion {
   id: string;
   question: string;

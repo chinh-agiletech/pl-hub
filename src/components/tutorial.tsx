@@ -17,7 +17,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { Progress } from "@radix-ui/react-progress";
-import type { TutorialStep, TutorialProps } from "../interfaces/Language";
+import type { TutorialStep, TutorialProps } from "../types/index";
 
 export function Tutorial({ language, title, steps, onClose }: TutorialProps) {
   const [currentStep, setCurrentStep] = React.useState(0);

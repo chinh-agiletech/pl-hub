@@ -1,4 +1,4 @@
-import type { TutorialStep } from "../interfaces/Language";
+import type { TutorialStep } from "../interfaces/Language.ts";
 
 const dataTutorial = {
   javascript: {
